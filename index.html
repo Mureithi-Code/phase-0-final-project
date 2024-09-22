@@ -1,9 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>My Personal Website</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <button class="nav-button" data-target="about">About Me</button>
+            <button class="nav-button" data-target="projects">Projects</button>
+            <button class="nav-button" data-target="contact">Link Up With Me</button>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p> Hi! I'm Josehp Mureithi, a passionate beginner developer currently specializing in HTML, CSS and JavaScript.
+            My journey into web development began with a fascination for creating engaging and interactive web experiences.
+            I enjoy transforming ideas in functional websites and continuosly learning new techniques to enhace my skills.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML: Structuring web content.</li>
+            <li>CSS: Styling and layout design.</li>
+            <li>JavaScript: Adding interactivity and functionality.</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>This is my 1st personal Website.</p>
+            <a href="https://mureithi-code.github.io/phase-0-final-project/" target="_blank">Personal Website</a>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Josehp Mureithi <br> The web Master</p>
+    </footer>
+
+    <script src=./index.js></script>
+</body>
 </html>

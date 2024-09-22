@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px;
+}
+
+.nav-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition-duration: 300ms;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(31, 143, 37, 0.5);
+    border-radius: 5px;
+    
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column; 
+}
+#contact h2 {
+    margin-bottom: 20px;
+}
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+#contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+#contact-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#contact-form button:hover {
+    background-color: #38c226;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
